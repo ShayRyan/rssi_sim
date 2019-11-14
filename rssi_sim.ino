@@ -55,7 +55,7 @@ void loop() {
   level = rsl_to_step(rsl, slope, intercept, dac_step_value);
   analogWrite(RSSI, level);
 
-  delay(2);      // trim to get frequency 1.8kHz
+  //delay(2);      // trim to get frequency 1.8kHz
 }
 
 float random_rsl(float min, float max) {
